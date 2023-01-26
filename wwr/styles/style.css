@@ -1,84 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 nav a {
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
+
 #background {
     height: 725px;
 }
+
 body {
     background-color: white;
+    font-family: Helvetica, Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 header {
     background-color:#987a5a;
 }
+
 nav a:hover {
     background-color:#987a5a;
     color: black;
 }
+
 .book, .join {
     background-color: #987a5a;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .book:hover, .join:hover { 
     background-color : #f0f4f2;
     color: black;
 }
+
 #background {
     background-color: #285071;
 }
+
 .msg {
     background-color: #af9884;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
 footer {
     background-color: #af9884;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 .home-title {
     color: red;
+    font-family: "Moon Dance",Lobster, Explora;
+    font-size: 2em;
+    margin-top: 10px;
 }
+
 h4 {
     color: #264964;
 }
+
 .msg h2 {
     color: rgba(20,59,84,255);
+    font-family: "Moon Dance",Lobster, Explora;
+    font-size: 2em;
 }
+
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
+
 footer a {
     color: black;
-    text-decoration: none;
+    text-decoration: none;  
 }
 footer a:hover {
     color:#285071;
 }
+
 .logo {
     width: 80px;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
 #hero-img {
     width: 100%
 }
+
 footer p {
     font-size: 1.2em;
 }  
+
 footer p a:hover {
     text-decoration: underline;
-}    
+}  
+
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
