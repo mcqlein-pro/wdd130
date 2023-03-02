@@ -224,6 +224,65 @@ nav {
     transform: scale(1.1);
 }
 
+.file2 section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.file2 section img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+    border: 10px solid #d9c2a3;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  
+.file2 section img:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+  }
+
+.file2 section .content {
+	flex: 1;
+}
+
+.file2 section h1 {
+	text-align: left;
+    font-family: "Moon Dance",Lobster, Explora;
+    color: red;
+    font-size: 2em;
+    
+}
+
+.file2 section p {
+	text-align: left;
+    font-size: 1em;
+
+    
+}
+
+
+.file2 section .riv h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #264964;
+    font-family: Helvetica, Roboto, sans-serif;
+    
+
+}
+
+.file2 {
+    border: 10px solid white;
+  }
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
