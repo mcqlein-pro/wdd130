@@ -1,7 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    
+    background-color: black ;
 }
 
 header {
@@ -49,6 +49,7 @@ footer a {
   
 footer p {
     font-size: 1.2em;
+    color: black;
 }  
   
 footer p a:hover {
@@ -69,17 +70,17 @@ nav {
     float: right;
   }
   
-  /* Style the input field inside the navbar */
-  input[type=text] {
+/* Style the input field inside the navbar */
+input[type=text] {
     padding: 6px;
     margin-top: 35px;
     font-size: 17px;
     border: none;
     width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
-  }
+}
   
-  /* Style the button inside the input container */
-  .login-container button {
+/* Style the button inside the input container */
+.login-container button {
     float: right;
     padding: 6px;
     margin-top: 35px;
@@ -88,11 +89,87 @@ nav {
     font-size: 17px;
     border: none;
     cursor: pointer;
-  }
+}
   
-  .login-container button:hover {
+.login-container button:hover {
     background: #ccc;
-  }
+}
+
+.body {
+    background-color: black;
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 15px;
+    color: #d95c25;
+}
+.intro p {
+    text-align: center;
+    border: 15px;
+    margin: 10px;
+    color:white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.outro p {
+    text-align: center;
+    border: 15px;
+    margin: 10px;
+    color:white;
+    font-size: 24px;
+    font-style: italic;
+}
+.intro ul {
+    text-align: left;
+    border: 15px;
+    margin: 10px;
+    color:white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.news img {
+    float: right;
+    margin-right: 20px;
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    border: 10px solid #d95c25;
+    
+}
+
+
+.news ul{
+    text-align: justify;
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    
+}
+
+.news p{
+    text-align: justify;
+    margin: 20px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    
+    
+}
+
+.news h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #d95c25;
+    text-decoration: underline;
+}
+
+
+  
 
   @media screen and (max-width: 600px) {
     .login-container {
