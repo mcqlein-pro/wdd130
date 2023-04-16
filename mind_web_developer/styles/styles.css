@@ -252,11 +252,11 @@ nav {
   }
   
   .services-wrapper {
-    justify-content: center;
+    display: block;
   }
   
   .service {
-    width: 40%;
+    width: 100%;
     margin-bottom: 20px;
   }
   
@@ -273,6 +273,7 @@ nav {
   }
   
   footer {
+    display: flex;
     padding: 15px;
   }
   
