@@ -364,3 +364,61 @@ h2 {
 }
     
 
+@media screen and (max-width: 767px) {
+    header {
+      grid-template-columns: auto;
+      justify-content: center;
+    }
+  
+    nav {
+      display: block;
+      text-align: center;
+    }
+  
+    .logo {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    nav a {
+      display: block;
+      padding: 10px;
+    }
+  
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    footer p {
+      margin-bottom: 10px;
+    }
+  
+    .service1,
+    .service2,
+    .service3,
+    .service4,
+    .service5 {
+      padding: 10px;
+    }
+  
+    .grid-container1,
+    .grid-container2,
+    .grid-container3,
+    .grid-container4,
+    .grid-container5 {
+      display: block;
+    }
+  
+    .img-container1 img,
+    .img-container2 img,
+    .img-container3 img,
+    .img-container4 img,
+    .img-container5 img {
+      float: none;
+    }
+  
+    h2 {
+      text-align: center;
+    }
+  }
