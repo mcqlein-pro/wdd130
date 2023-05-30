@@ -186,4 +186,73 @@ input[type=text] {
     input[type=text] {
       border: 1px solid #ccc;
     }
-  }
+
+    header {
+        grid-template-columns: auto; /* Change grid template columns to a single column */
+        justify-content: center; /* Center align the items */
+      }
+    
+      .logo {
+        width: 100%; /* Adjust the width to fit the container */
+        height: auto; /* Allow the height to adjust proportionally */
+      }
+    
+      nav {
+        flex-direction: column; /* Stack the navigation items vertically */
+        align-items: center; /* Center align the items */
+      }
+    
+      nav a {
+        padding: 15px; /* Reduce the padding to fit the smaller screen */
+      }
+    
+      /* Footer */
+      footer {
+        flex-direction: column; /* Stack the content vertically */
+        text-align: center; /* Center align the content */
+      }
+    
+      footer p {
+        margin-top: 10px; /* Reduce the top margin */
+      }
+    
+      footer .social img {
+        padding-top: 0; /* Remove the top padding */
+      }
+    
+      /* Introduction Section */
+      .intro h1 {
+        font-size: 2em; /* Reduce the font size */
+        padding: 10px; /* Reduce the padding */
+      }
+    
+      .intro p {
+        font-size: 18px; /* Reduce the font size */
+        margin: 5px; /* Reduce the margin */
+      }
+    
+      /* Outro Section */
+      .outro p {
+        font-size: 18px; /* Reduce the font size */
+        margin: 5px; /* Reduce the margin */
+      }
+    
+      /* News Section */
+      .news img {
+        width: 100%; /* Adjust the width to fit the container */
+        height: auto; /* Allow the height to adjust proportionally */
+        margin: 10px 0; /* Add some vertical margin */
+        border: none; /* Remove the border */
+      }
+    
+      .news ul,
+      .news p {
+        font-size: 18px; /* Reduce the font size */
+        margin: 5px; /* Reduce the margin */
+      }
+    
+      .news h2 {
+        font-size: 24px; /* Reduce the font size */
+      }
+    }
+  
