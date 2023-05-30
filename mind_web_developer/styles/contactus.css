@@ -154,31 +154,32 @@ form {
   }
 
   header {
-    grid-template-columns: 100%;
-    justify-items: center;
-    padding: 20px;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
   }
 
   .logo {
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
   }
 
   nav a {
-    padding: 15px;
+    display: block;
+    padding: 10px;
   }
 
   footer {
     flex-direction: column;
     text-align: center;
-    padding: 20px;
   }
 
   footer p {
     margin-bottom: 10px;
-  }
-
-  footer .social img {
-    padding-top: 10px;
   }
 
   form {

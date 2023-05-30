@@ -188,37 +188,33 @@ input[type=text] {
     }
 
     header {
-        grid-template-columns: auto; /* Change grid template columns to a single column */
-        justify-content: center; /* Center align the items */
-      }
-    
-      .logo {
-        width: 100%; /* Adjust the width to fit the container */
-        height: auto; /* Allow the height to adjust proportionally */
-      }
-    
-      nav {
-        flex-direction: column; /* Stack the navigation items vertically */
-        align-items: center; /* Center align the items */
-      }
-    
-      nav a {
-        padding: 15px; /* Reduce the padding to fit the smaller screen */
-      }
-    
-      /* Footer */
-      footer {
-        flex-direction: column; /* Stack the content vertically */
-        text-align: center; /* Center align the content */
-      }
-    
-      footer p {
-        margin-top: 10px; /* Reduce the top margin */
-      }
-    
-      footer .social img {
-        padding-top: 0; /* Remove the top padding */
-      }
+      grid-template-columns: auto;
+      justify-content: center;
+    }
+  
+    nav {
+      display: block;
+      text-align: center;
+    }
+  
+    .logo {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    nav a {
+      display: block;
+      padding: 10px;
+    }
+  
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    footer p {
+      margin-bottom: 10px;
+    }
     
       /* Introduction Section */
       .intro h1 {
